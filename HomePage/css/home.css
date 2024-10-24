@@ -1,0 +1,112 @@
+/* Global Styles */
+body {
+  color: #FFFFFF;
+}
+
+li {
+  font-family: "Poppins";
+  font-size: 18px;
+  text-align: center;
+  margin: 10px;
+}
+
+.nav-link {
+  color: #FFF;
+}
+
+.nav-link:hover {
+  border: 2px solid #fff;
+  background-color: #fff;
+  border-radius: 15px;
+  height: 45px;
+}
+
+hr {
+  border: 1px solid;
+  width: 100%;
+}
+
+/* Button and link styles */
+.enable {
+  color: #00FFA7;
+}
+
+#sign_up {
+  color: #060606;
+  background-color: #C9F31D;
+  border-radius: 25px;
+  width: 90px;
+}
+
+/* Welcome Section */
+.welcome {
+  padding: 100px;
+  font-size: 120px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.welcome span {
+  background: -webkit-linear-gradient(#00FFA7, #FFFF00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#text {
+  width: 630px;
+}
+
+/* Custom Button Styling */
+.btn-dark {
+  background-color: #FFF;
+  border-radius: 25px;
+  padding: 8px 15px;
+}
+
+/* Services Section */
+.services {
+  background-color: #FFF;
+}
+
+#cardbtn {
+  height: fit-content;
+  display: flex;
+  justify-content: end;
+}
+
+#cardbtn .btn {
+  border-radius: 100px;
+}
+
+#cardbtn .btn:hover {
+  border: 1px solid #000;
+}
+
+/* Phone Section Styles */
+.phone {
+  border-radius: 25px;
+  align-items: center;
+  background: -webkit-linear-gradient(#ADFFD3, #99ECFE, #8CC8FF);
+  -webkit-text-fill-color: #000;
+}
+
+.flogo {
+  width: 300px;
+}
+
+/* Media Query for smaller screens */
+@media screen and (max-width: 768px) {
+  .welcome {
+    font-size: 30px;
+    padding: 50px;
+  }
+
+  #text {
+    width: auto;
+  }
+
+  .nav-item {
+    display: flex;
+    justify-content: center;
+  }
+}
